@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Tilt+Neon&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-primary: #9aa1a6d6;
+  --color-secondary: #0d0d0b;
+}
+
+body {
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 1rem;
+  background: var(--color-primary);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--color-secondary);  
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Amatic SC', sans-serif;;
+}
